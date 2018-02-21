@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="corners_radius">4dp</dimen>
+    <dimen name="icon_size_24dp">24dp</dimen>
+    <dimen name="padding_16dp">16dp</dimen>
+    <dimen name="text_size_16sp">16sp</dimen>
+    <dimen name="text_size_20sp">20sp</dimen>
+    <dimen name="padding_50dp">50dp</dimen>
+</resources>
