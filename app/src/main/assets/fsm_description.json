@@ -1,0 +1,82 @@
+[
+  {
+    "actionType": "lock",
+    "startState": "AlarmDisarmed AllUnlocked",
+    "endState": "AlarmDisarmed AllLocked"
+  },
+  {
+    "actionType": "lock",
+    "startState": "AlarmDisarmed DriverUnlocked",
+    "endState": "AlarmDisarmed AllLocked"
+  },
+  {
+    "actionType": "lock",
+    "startState": "AlarmDisarmed AllLocked",
+    "endState": "AlarmDisarmed AllLocked"
+  },
+  {
+    "actionType": "lock",
+    "startState": "AlarmArmed AllLocked",
+    "endState": "AlarmArmed AllLocked"
+  },
+  {
+    "actionType": "lockx2",
+    "startState": "AlarmDisarmed AllUnlocked",
+    "endState": "AlarmArmed AllLocked"
+  },
+  {
+    "actionType": "lockx2",
+    "startState": "AlarmDisarmed DriverUnlocked",
+    "endState": "AlarmArmed AllLocked"
+  },
+  {
+    "actionType": "lockx2",
+    "startState": "AlarmDisarmed AllLocked",
+    "endState": "AlarmArmed AllLocked"
+  },
+  {
+    "actionType": "lockx2",
+    "startState": "AlarmArmed AllLocked",
+    "endState": "AlarmArmed AllLocked"
+  },
+  {
+    "actionType": "unlock",
+    "startState": "AlarmDisarmed AllUnlocked",
+    "endState": "AlarmDisarmed AllUnlocked"
+  },
+  {
+    "actionType": "unlock",
+    "startState": "AlarmDisarmed DriverUnlocked",
+    "endState": "AlarmDisarmed DriverUnlocked"
+  },
+  {
+    "actionType": "unlock",
+    "startState": "AlarmDisarmed AllLocked",
+    "endState": "AlarmDisarmed DriverUnlocked"
+  },
+  {
+    "actionType": "unlock",
+    "startState": "AlarmArmed AllLocked",
+    "endState": "AlarmDisarmed DriverUnlocked"
+  },
+  {
+    "actionType": "unlockx2",
+    "startState": "AlarmDisarmed AllUnlocked",
+    "endState": "AlarmDisarmed AllUnlocked"
+  },
+  {
+    "actionType": "unlockx2",
+    "startState": "AlarmDisarmed DriverUnlocked",
+    "endState": "AlarmDisarmed DriverUnlocked"
+  },
+  {
+    "actionType": "unlockx2",
+    "startState": "AlarmDisarmed AllLocked",
+    "endState": "AlarmDisarmed AllUnlocked"
+  },
+  {
+    "actionType": "unlockx2",
+    "startState": "AlarmArmed AllLocked",
+    "endState": "AlarmDisarmed AllUnlocked"
+  }
+]
