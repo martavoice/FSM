@@ -1,4 +1,4 @@
-package com.maltseva.marta.fsm;
+package com.maltseva.marta.fsm.stateHandlers;
 
 import com.maltseva.marta.fsm.model.Action;
 import com.maltseva.marta.fsm.model.State;

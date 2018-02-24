@@ -1,6 +1,7 @@
-package com.maltseva.marta.fsm;
+package com.maltseva.marta.fsm.stateHandlers;
 
 import com.maltseva.marta.fsm.model.State;
+import com.maltseva.marta.fsm.stateHandlers.StateChangedListener;
 import com.maltseva.marta.fsm.ui.MainActivity;
 
 public class StateController implements StateChangedListener {

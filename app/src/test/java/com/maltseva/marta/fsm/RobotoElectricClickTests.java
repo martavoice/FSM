@@ -4,6 +4,7 @@ import android.widget.Button;
 import android.widget.TextView;
 
 import com.maltseva.marta.fsm.model.State;
+import com.maltseva.marta.fsm.stateHandlers.StateSaver;
 import com.maltseva.marta.fsm.ui.MainActivity;
 
 import org.junit.Test;

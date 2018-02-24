@@ -8,9 +8,9 @@ import android.widget.TextView;
 
 import com.maltseva.marta.fsm.R;
 import com.maltseva.marta.fsm.model.State;
-import com.maltseva.marta.fsm.StateChangedListener;
-import com.maltseva.marta.fsm.StateController;
-import com.maltseva.marta.fsm.StateManager;
+import com.maltseva.marta.fsm.stateHandlers.StateChangedListener;
+import com.maltseva.marta.fsm.stateHandlers.StateController;
+import com.maltseva.marta.fsm.stateHandlers.StateManager;
 import com.maltseva.marta.fsm.utils.JsonUtils;
 
 import butterknife.BindView;
