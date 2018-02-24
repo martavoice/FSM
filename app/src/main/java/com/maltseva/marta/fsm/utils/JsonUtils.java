@@ -1,17 +1,13 @@
 package com.maltseva.marta.fsm.utils;
 
 import android.content.Context;
-import android.content.res.Resources;
 
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
-import com.maltseva.marta.fsm.Action;
+import com.maltseva.marta.fsm.model.Action;
 
-import java.io.File;
-import java.io.FileInputStream;
 import java.io.IOException;
 import java.io.InputStream;
-import java.io.InputStreamReader;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -20,7 +16,7 @@ import java.util.List;
  */
 
 public class JsonUtils {
-    public String createStringFromJson(Context context, String filePath) {
+    private String createStringFromJson(Context context, String filePath) {
         try {
             InputStream is = context.getAssets().open(filePath);
             int size = is.available();

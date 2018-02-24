@@ -1,4 +1,4 @@
-package com.maltseva.marta.fsm;
+package com.maltseva.marta.fsm.model;
 
 /**
  * Created by Марта on 22.02.2018.

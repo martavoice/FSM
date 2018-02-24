@@ -1,5 +1,8 @@
 package com.maltseva.marta.fsm;
 
+import com.maltseva.marta.fsm.model.Action;
+import com.maltseva.marta.fsm.model.State;
+
 import java.util.List;
 
 /**
@@ -13,7 +16,6 @@ public class StateManager {
     public static final String UNLOCKx2 = "unlockx2";
     private StateChangedListener stateListeners;
     private List<Action> actions;
-    private State currentState;
 
     public StateManager(State lock, StateChangedListener view, List<Action> actions) {
         StateSaver.getInstance().setCurrentState(lock);
@@ -60,7 +62,7 @@ public class StateManager {
     }
 
 
-    public void setCurrentState(State currentState) {
+    private void setCurrentState(State currentState) {
         StateSaver.getInstance().setCurrentState(currentState);
     }
 }

@@ -7,8 +7,9 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.maltseva.marta.fsm.R;
-import com.maltseva.marta.fsm.State;
+import com.maltseva.marta.fsm.model.State;
 import com.maltseva.marta.fsm.StateChangedListener;
+import com.maltseva.marta.fsm.StateController;
 import com.maltseva.marta.fsm.StateManager;
 import com.maltseva.marta.fsm.utils.JsonUtils;
 
@@ -16,7 +17,7 @@ import butterknife.BindView;
 import butterknife.ButterKnife;
 import butterknife.OnClick;
 
-import static com.maltseva.marta.fsm.State.ALARM_DISARMED_ALL_UNLOCKED;
+import static com.maltseva.marta.fsm.model.State.ALARM_DISARMED_ALL_UNLOCKED;
 
 public class MainActivity extends AppCompatActivity {
     private static final String FMS_DESCRIPTION_JSON = "fsm_description.json";

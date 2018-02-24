@@ -1,17 +1,18 @@
 package com.maltseva.marta.fsm;
 
+import com.maltseva.marta.fsm.model.Action;
+import com.maltseva.marta.fsm.model.State;
 import com.maltseva.marta.fsm.ui.MainActivity;
-import com.maltseva.marta.fsm.ui.StateController;
 
 
 import org.junit.Test;
 
 import java.util.ArrayList;
 
-import static com.maltseva.marta.fsm.State.ALARM_ARMED_ALL_LOCKED;
-import static com.maltseva.marta.fsm.State.ALARM_DISARMED_ALL_LOCKED;
-import static com.maltseva.marta.fsm.State.ALARM_DISARMED_ALL_UNLOCKED;
-import static com.maltseva.marta.fsm.State.ALARM_DISARMED_DRIVER_UNLOCKED;
+import static com.maltseva.marta.fsm.model.State.ALARM_ARMED_ALL_LOCKED;
+import static com.maltseva.marta.fsm.model.State.ALARM_DISARMED_ALL_LOCKED;
+import static com.maltseva.marta.fsm.model.State.ALARM_DISARMED_ALL_UNLOCKED;
+import static com.maltseva.marta.fsm.model.State.ALARM_DISARMED_DRIVER_UNLOCKED;
 import static org.junit.Assert.*;
 import static org.mockito.Mockito.mock;
 import static org.mockito.Mockito.times;

@@ -1,4 +1,4 @@
-package com.maltseva.marta.fsm;
+package com.maltseva.marta.fsm.model;
 
 public class Action {
 
@@ -16,24 +16,12 @@ public class Action {
         return actionType;
     }
 
-    public void setActionType(String actionType) {
-        this.actionType = actionType;
-    }
-
     public String getStartState() {
         return startState;
     }
 
-    public void setStartState(String startState) {
-        this.startState = startState;
-    }
-
     public String getEndState() {
         return endState;
-    }
-
-    public void setEndState(String endState) {
-        this.endState = endState;
     }
 
 
