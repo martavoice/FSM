@@ -4,15 +4,15 @@ package com.maltseva.marta.fsm;
  * Created by Марта on 21.02.2018.
  */
 
-public class StateArchiver {
+public class StateSaver {
 
 
-    private static StateArchiver instance;
+    private static StateSaver instance;
     private State state;
 
-    public static StateArchiver getInstance() {
+    public static StateSaver getInstance() {
         if (instance == null) {
-            instance = new StateArchiver();
+            instance = new StateSaver();
         }
         return instance;
     }

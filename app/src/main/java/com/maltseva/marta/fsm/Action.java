@@ -1,10 +1,12 @@
 package com.maltseva.marta.fsm;
 
-/**
- * Created by Марта on 22.02.2018.
- */
-
 public class Action {
+
+    public Action(String actionType, String startState, String endState) {
+        this.actionType = actionType;
+        this.startState = startState;
+        this.endState = endState;
+    }
 
     private String actionType;
     private String startState;
